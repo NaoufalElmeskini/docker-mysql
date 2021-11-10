@@ -5,6 +5,7 @@ LABEL author="nacrobate"
 RUN mkdir -p /usr/work
 WORKDIR /usr/work 
 COPY ./build/*.sql .
+COPY ./build/*.sql /docker-entrypoint-initdb.d/
 
 ENV MYSQL_ROOT_PASSWORD=password
 

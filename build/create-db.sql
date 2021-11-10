@@ -1,2 +1,2 @@
-CREATE DATABASE cheerupdp;
+CREATE DATABASE cheerup_db;
 
