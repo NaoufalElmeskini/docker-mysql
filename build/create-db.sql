@@ -1,2 +1,2 @@
-CREATE DATABASE cheerup_db;
+CREATE DATABASE jhipster_demo_db;
 
